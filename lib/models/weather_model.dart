@@ -17,6 +17,4 @@ factory Weather.fromJson(Map<String,dynamic> json)
     mainCondition: json['weather'][0]['main'],
     );
 }
-
-
 }
