@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:weather_app/screens/help_screen.dart';
@@ -35,7 +34,7 @@ class _HomePageScreenState extends State<HomePageScreen> {
       });
       _fetchWeather(savedLoc);
     } else {
-      _fetchWeatherForCurrentLocation(); // Load weather based on current location
+      _fetchWeatherForCurrentLocation(); 
     }
   }
 
