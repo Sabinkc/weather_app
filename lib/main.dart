@@ -1,7 +1,3 @@
-
-
-
-
 import 'package:flutter/material.dart';
 import 'package:weather_app/screens/help_screen.dart';
 import 'package:weather_app/screens/homepage_screen.dart';
